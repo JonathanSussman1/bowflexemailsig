@@ -1,0 +1,37 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/sussman/Downloads/BowFlexInc Email Sig_HO Folder/Document fonts/AdobeFnt23.lst
+FileLength:1014
+FileModTime:710283522
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:RauschenA-Regular
+FamilyName:Rauschen A
+StyleName:Regular
+MenuName:Rauschen A
+StyleBits:0
+WeightClass:100
+WidthClass:5
+AngleClass:0
+FullName:Rauschen A Regular
+WritingScript:Roman
+OutlineFileName:/Users/sussman/Downloads/BowFlexInc Email Sig_HO Folder/Document fonts/RauschenA-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:103104
+FileModTime:637691329
+NameArray:0,Mac,4,Rauschen A Regular
+NameArray:0,Win,1,Rauschen A
+%EndFont
+
