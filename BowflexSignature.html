@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @font-face { font-family: 'testfont'; src: url("https://github.com/JonathanSussman1/bowflexemailsig/raw/main/RauschenA-Regular.otf"); font-weight: 400!important;
+    } 
+    .name{
+        width: 245.85px;
+        height: 20.3px;
+        display: table-cell;
+        vertical-align:middle;
+        padding-top: 30px;
+    }
+    .name p {
+        margin: 0;
+    }
+    .info{
+        width: 135px;
+        height: 41.85px;
+        display: table-cell;
+        vertical-align: top;
+        text-align: left;
+    }
+    .info p {
+        margin: 0;
+    }
+    .sigtable a{
+        color:inherit;
+    }
+    .sigtable p{
+        font-family: testfont,Arial;
+        font-size: 10.5px;
+        font-weight: 400!important;
+        box-sizing: border-box;
+        color: rgb(189,190,192);
+    }
+    .sigtable {
+        border-collapse: collapse;
+        width: 388px;
+        height: 350px!important;
+    }
+    .sigtable > td {
+        padding: 0;
+        vertical-align: top;
+    }
+    .logo {
+        width: 146px;
+        height: 22px;
+        text-align: center;
+        background-image: url("https://github.com/JonathanSussman1/bowflexemailsig/blob/main/BowFlexInc_Logo_Black_RGB-01.png?raw=true");
+        background-repeat: no-repeat;
+        background-position: 0% 0%;
+        background-size: 146px 22px;
+    }
+    .subbrand {
+        height: 12.86px;
+        width: 149.368px;
+        text-align: center;
+        background-image: url("https://github.com/JonathanSussman1/bowflexemailsig/blob/main/BowFlexInc%20Logo%20+%20Subbrands_Grey_RGB-01.png?raw=true");
+        background-repeat: no-repeat;
+        background-position: 0% 0%;
+        background-size: 149.3px 12.86px;
+        padding-bottom: 30px;
+    }
+    .defaultLogo{
+        height: 22px;
+        width: 146px;
+    }
+    .defaultSubbrand{
+        height: 12.86px;
+        width: 149.368px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .defaultLogo, .defaultSubbrand{
+            display: none!important;
+        }
+        .logo {
+            background-image: url("https://github.com/JonathanSussman1/bowflexemailsig/blob/main/BowFlexInc_Logo_White_RGB-01.png?raw=true");
+        }
+        .subbrand{
+            background-image: url("https://github.com/JonathanSussman1/bowflexemailsig/blob/main/BowFlexInc%20Logo%20+%20Subbrands_Grey_RGB%20Dark%20Mode-01.png?raw=true");
+        }
+    }
+    @media (prefers-color-scheme: light) {
+        .defaultLogo, .defaultSubbrand{
+            display: none!important;
+        }
+    }
+</style>
+<meta name="supported-color-schemes" content="light dark">
+  <title>Bowflex Email Signature</title>
+</head>
+<body>
+    <table class="sigtable">
+        <tr>
+            <td class="name">
+            <p style="font-family:'testfont',Arial; font-size: 11px; color:rgb(189,190,192); line-height: normal;" contenteditable="true">
+                <span style="font-family:'testfont',Arial; font-size: 11px; font-weight: 600; color: black;" contenteditable="true">Jim Barr<br/></span>
+              Chief Executive Officer<br/>
+              123.456.7890
+            </p>
+          </td>
+          </tr>
+          <tr>
+          <td class="logo">
+            <div  class="defaultLogo" style="display: block;">
+            <img src="https://github.com/JonathanSussman1/bowflexemailsig/blob/main/BowFlexInc_Logo_Black_RGB-01.png?raw=true" alt="BowFlexInc Logo" style="display:block; max-height: 22px; max-width: 146px">
+            </div>
+          </td>
+          </tr>
+        <tr>
+          <td class="info">
+            <p style="font-family:'testfont',Arial; font-size: 10.5px; line-height: normal; color: rgb(189,190,192);" contenteditable="false">
+                <a href="#" style="color:rgb(189,190,192); text-decoration:none;">
+                17750 SE 6th Way <br/>
+              Vancouver, WA 98683<br/>
+              </a>
+              <a style="color:inherit; text-decoration: underline;" href="https://www.bowflex.com/">bowflex.com</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+            <td class="subbrand">
+                <div  class="defaultSubbrand" style="display: block;">
+                    <img src="https://github.com/JonathanSussman1/bowflexemailsig/blob/main/BowFlexInc%20Logo%20+%20Subbrands_Grey_RGB-01.png?raw=true" alt="Subbrands Logos" style="display:block; max-height: 12.8px; max-width: 149.3px">
+                    </div>
+            </td>
+            </tr>
+      </table>
+</body>
+</html>
